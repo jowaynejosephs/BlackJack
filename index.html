@@ -7,17 +7,35 @@
 	<link rel="stylesheet" href="site.css">
 </head>
 <body>
+	
+	<div class="text-center">
 	<button id="deal" class="btn btn-primary">Play</button>
 	<button id="hit" class="btn btn-primary hidden">Hit</button>
 	<button id="stand" class="btn btn-primary hidden">Stand</button>
 	<button id="playAgain" class="btn btn-primary hidden">Play Again</button>
+	</div>
 
+	<div id="winner" class="alert hidden text-center"><p>Winner</p></div>
+
+	<div class="bg">
+	<div class="container">
+		<div class="row example">
+			<div class="col-xs-12 col-md-6">
 	<div id="playerCards">
 		<h1>Player's Cards</h1>
 	</div>
+	</div>
+	<div class="col-xs-12 col-md-6">
 	<div id="dealerCards">
 		<h1>Dealer's Cards</h1>
+		</div>
+		</div>
 	</div>
+	</div>
+	</div>
+<div id="scoreBoard"></div>
+<div id="playerBoard"></div>
+
 	<script src="app.js"></script>
 </body>
 </html>
